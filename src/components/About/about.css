@@ -1,0 +1,29 @@
+.about_box {
+    background: #fff;
+    padding: 1.5em 1em;
+    margin-bottom: 2em;
+    -webkit-box-shadow: 10px 10px 0px 0px #dbe2ef; 
+    box-shadow: 10px 10px 0px 0px #dbe2ef; 
+}
+
+.about_founders {
+    display: flex;
+    background: #fff;
+    padding: 1.5em 1em;
+    margin-bottom: 2em;
+    -webkit-box-shadow: 10px 10px 0px 0px #dbe2ef; 
+    box-shadow: 10px 10px 0px 0px #dbe2ef; 
+}
+
+.about_image {
+    background-image: url('../../assets/images/founders.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 40%;
+}
+
+.about_text {
+    padding: 0 0 0 0.75em;
+}

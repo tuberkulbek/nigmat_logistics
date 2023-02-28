@@ -1,0 +1,105 @@
+.contact_form {
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+}
+
+.contact_field {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    margin: 0 0 1em 0;
+}
+
+.contact_half {
+    width: calc(50% - 1em/2);
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0 0 1em 0;
+    margin-left: 1em;
+}
+
+.contact_half:first-child{
+    width: calc(50% - 1em/2);
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0 0 1em 0;
+    margin-left: 0;
+}
+
+.contact_form input {
+    appearance: none;
+    color: #f9f7f7;
+    display: block;
+    width: 100%;
+    padding: 0.65em 0.75em;
+    background: none;
+    border: solid 2px lighten(#dbe2ef, 20);
+    border-radius: 0.5em;
+    outline: none;
+}
+.contact_form input:focus {
+    border-color: #dbe2ef;
+}
+
+.contact_form textarea {
+    min-height: 16em;
+}
+
+.contact_form button {
+    appearance: none;
+    background-color: #f9f7f7;
+    border: 0;
+    border-radius: 0.5em;
+    color: #39454b;
+    cursor: pointer;
+    display: inline-block;
+    height: 3.5em;
+    line-height: 3.5em;
+    outline: 0;
+    padding: 0 5em 0 5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.75em;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.contact_form button:hover {
+    background-color: darken(#f9f7f7, 5);
+}
+
+.contact_select {
+    appearance: none;
+    background-color: inherit;
+    display: block;
+    width: 100%;
+    padding: 0.65em 0.75em;
+    background: none;
+    border: solid 2px #dbe2ef;
+    border-radius: 0.5em;
+    outline: none;
+}
+.selected_options {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: inherit;
+    margin: 0 0 1em 0;
+    top: 51%;
+    color: #3f72af;
+    align-items: center;
+    background-color: #dbe2ef;
+    border-radius: 10px;
+    opacity: 5;
+}
+
+.options {
+    height: 45px;
+    width: 100%;
+    border: solid 1px #3f72af;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
