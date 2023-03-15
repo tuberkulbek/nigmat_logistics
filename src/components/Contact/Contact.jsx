@@ -67,24 +67,23 @@ function Contact() {
     return (
         <section id="contact" className="wrapper style3">
             <div className="container">
-                <h2>Let us help you</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis natus, dolore exercitationem eaque quod earum, 
-                aliquid pariatur omnis facilis quos veniam commodi quae voluptatibus, cumque nobis magni excepturi rem ducimus!</p>
+                <h2>Позвольте нам помочь вам</h2>
+                <p>Наша компания выражает вам огромное почтение за доверие, заполните нижеуказанные строки, мы вам обязательно дадим обратную связь</p>
                 <div className="contact_form">
                     <div className="contact_half">
-                        <input type="text" placeholder="Name" onChange={handleChangeName}/>
+                        <input type="text" placeholder="Имя" onChange={handleChangeName}/>
                     </div>
                     <div className="contact_half">
-                        <input type="email" placeholder="Number" onChange={handleChangeNumber}/>
+                        <input type="email" placeholder="Номер телефона" onChange={handleChangeNumber}/>
                     </div>
                     <div className="contact_field" onClick={handleOpenOptions}>
                         <input className="contact_select" disabled placeholder={`Как вы нас нашли:                                                       ${method}`} />
                     </div>
                     {options && <div className="selected_options">{variants.map(e => <SelectOptions id={e.id} key={e.id} text={e.text} handleChangeMethod={handleChangeMethod} />)}</div>}
                     <div className="contact_field">
-                        <textarea type="text" placeholder="Message" onChange={handleChangeMessage} value={message}/>
+                        <textarea type="text" placeholder="Чем мы можем вам помочь" onChange={handleChangeMessage} value={message}/>
                     </div>
-                    <button onClick={handleAddItem}>Send Message</button>
+                    <button onClick={handleAddItem}>Отправить запрос</button>
                 </div>
             </div>
         </section>

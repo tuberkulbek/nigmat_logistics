@@ -13,8 +13,7 @@ function Home() {
             <div className="container">
                 <div className="home_text-box">
                     <h2>Nigmat Logistic</h2>
-                    <p>Это страница оффициального сайта по логистике</p>
-                    <h1>Мы теперь не наебщики, мы компания</h1>
+                    <h3>Мы помогаем развиваться нашим партнерам</h3>
                 </div>
             </div>
         </section>

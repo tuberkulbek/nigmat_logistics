@@ -7,24 +7,30 @@ function About() {
         <section id="about" className="wrapper style2">
             <div className="container">
                 <div className="about_box">
-                    <h2>Get to know us better</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, dolor necessitatibus dolorum est nulla iste vero tenetur,
-                    sed nihil id odit tempore quibusdam, iure placeat architecto sapiente veniam expedita corporis.
-                    Rem tempora quasi tenetur nesciunt itaque vero quo commodi, libero ducimus suscipit veniam, ipsum quia cupiditate. 
-                    Eos nemo et provident facilis magni porro laudantium unde soluta. Harum mollitia temporibus consequuntur!
-                    Reiciendis illum minus nisi perspiciatis libero tempora eaque suscipit inventore dolor, explicabo alias quas, esse facere a iusto! Aut debitis in, 
-                    asperiores tempore laborum fuga error quis eum qui vel.</p>
+                    <h2>Узнайте нас лучше</h2>
+                    <p>Nigmat Logistics динамично развивающаяся транспортно-экспедиторская компания. Уже больше года нашими услугами
+                        пользуются различные отросли бизнеса и предпринимательства в Казахстане и за его рубежом. Мы всегда готовы помочь вашему
+                        бизнесу развиваться. Работа с нами означает вход в большую и дружную семью, где вам всегда окажут помощь в той или иной
+                        проблеме. Мы всегда подстраиваемся под привычные условия работы наших клиентов. Штат компании подобран из самых лучших
+                        специалистов в области перевозки грузов. Наша компания специализируется на перевозке грузов под температурным режимом со
+                        стран Европы, СНГ, а также по регионам Казахстана. Мы помогаем нашим клиентам во всех вопросах касающихся перевозки грузов,
+                        вплоть до составления документации.</p>
                 </div>
                 <div className="about_founders">
                     <div className="about_image"></div>
                     <div className="about_text">
-                        <h2>Get to know our founders</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, dolor necessitatibus dolorum est nulla iste vero tenetur,
-                        sed nihil id odit tempore quibusdam, iure placeat architecto sapiente veniam expedita corporis.
-                        Rem tempora quasi tenetur nesciunt itaque vero quo commodi, libero ducimus suscipit veniam, ipsum quia cupiditate. 
-                        Eos nemo et provident facilis magni porro laudantium unde soluta. Harum mollitia temporibus consequuntur!
-                        Reiciendis illum minus nisi perspiciatis libero tempora eaque suscipit inventore dolor, explicabo alias quas, esse facere a iusto! Aut debitis in, 
-                        asperiores tempore laborum fuga error quis eum qui vel.</p>
+                        <h2>Спектр предоставляемых нами услуг:</h2>
+                        <p>
+                            1. Перевозка грузов автомобильным транспортом
+                            2. Перевозка грузов железно-дорожными путями
+                            3. Перевозка грузов авиа транспортом
+                            4. Перевозка грузов мульти-модульным способом
+                            5. Ведение полной документации при осуществлении перевозки
+                            6. Услуги брокера для растаможивания товара
+                            7. Аутсорсинг ВЭД
+                            8. Услуги складской логистики
+                            9. Услуги грузчиков
+                        </p>
                     </div>
                 </div>
             </div>

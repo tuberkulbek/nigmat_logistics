@@ -2,12 +2,14 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navigation.css"
 
+import logo from "../../assets/images/logo.png"
+
 function Navigation() {
 
     return (
         <div id="navigation">
             <div className="logo">
-                <h3><NavLink to="/">Logistics</NavLink></h3>
+                <NavLink to="/"><img src={logo} /></NavLink>
             </div>
             <div className="list">
                 <ul>

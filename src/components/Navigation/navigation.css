@@ -37,3 +37,11 @@
 .list ul li:first-child {
     margin-left: 0;
 }
+
+.logo img{
+    width: 130px;
+}
+
+.logo {
+    margin-left: 20px;
+}

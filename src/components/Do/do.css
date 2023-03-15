@@ -1,3 +1,7 @@
+#do {
+    height: 100vh;
+}
+
 .do_boxes {
     display: flex;
     flex-wrap: wrap;
@@ -20,5 +24,7 @@
 }
 
 .do_text {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
