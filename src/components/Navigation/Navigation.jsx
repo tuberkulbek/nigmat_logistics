@@ -15,7 +15,7 @@ function Navigation() {
                 <ul>
                     <li><NavLink to="/do">Что мы делаем</NavLink></li>
                     <li><NavLink to="/about">О нас</NavLink></li>
-                    <li><NavLink to="/contact">Если возникнут вопросы</NavLink></li>
+                    <li><NavLink to="/contact">Cвяжитесь с нами</NavLink></li>
                 </ul>
             </div>
         </div>
