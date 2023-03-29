@@ -488,7 +488,6 @@ p, ul, ol, dl, table {
 }
 
 #about > .container > .box.founders > .image {
-  background-image: url("../../assets/images/founders.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -671,4 +670,17 @@ button:active {
   .container {
     width: 100%;
   }
+}
+
+.logo_wpp {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.App {
+  position: relative;
+  height: 100vh;
 }

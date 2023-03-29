@@ -16,7 +16,6 @@
 }
 
 .about_image {
-    background-image: url('../../assets/images/founders.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
