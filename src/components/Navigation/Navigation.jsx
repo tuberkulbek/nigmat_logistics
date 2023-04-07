@@ -9,7 +9,7 @@ function Navigation() {
     return (
         <div id="navigation">
             <div className="logo">
-                <NavLink to="/"><img src={logo} /></NavLink>
+                <NavLink to="/"><img src={logo} alt="nigmat_logo"/></NavLink>
             </div>
             <div className="list">
                 <ul>

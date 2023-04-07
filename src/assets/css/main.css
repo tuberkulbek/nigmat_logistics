@@ -673,7 +673,7 @@ button:active {
 }
 
 .logo_wpp {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   width: 150px;
